@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.but-Modal{
+  background-color: black;
+}
+
+.modal-content{
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+
+
