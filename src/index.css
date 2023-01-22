@@ -10,13 +10,56 @@ body{
 
 
 .but-Modal{
-  background-color: black;
+  border: white solid;
+
 }
+
+.but-Modal:hover{
+  background-color: transparent;
+  border: white solid;
+}
+
+
 
 .modal-content{
   background: rgba(0, 0, 0, 0.6);
   color: white;
 }
+
+
+.netflix::first-letter{
+  display: block !important;
+  color: red;
+
+}
+
+.logout{
+  height:30px;
+    width:100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .netflix {
+    color: transparent;
+    
+  }
+
+  .myList{
+    font-size: 13px;
+    margin-right: 5px;
+  }
+
+  .logout{
+    height:30px;
+    width:80px;
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+}
+
+
+
 
 
 

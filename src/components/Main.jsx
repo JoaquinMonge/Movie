@@ -54,7 +54,7 @@ export const Main = () => {
 
           <Button
             onClick={handleShow}
-            className="border bg-gray-300 text-black border-gray-300 py-0 px-4  hover:bg-transparent"
+            className="border bg-gray-300 hover:text-white text-black border-gray-300 py-0 px-4  hover:bg-transparent"
           >
             <p className=" hover:text-white">
               <svg
